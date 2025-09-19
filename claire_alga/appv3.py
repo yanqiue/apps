@@ -17,9 +17,6 @@ sys.path.append(f'{path}/Modules') #adding the Modules directory to Python's sea
 #Module Imports for the different sections
 import extract
 
-
-st.set_page_config(page_title="CSV → 3 Tables (Line-by-line parser)", layout="wide")
-
 st.title("Messy Algae CSV Parser")
 st.caption("Reads messy algal data CSV line-by-line and extracts: Metadata, Table 1, Table 2, Table 3 (then Table2 ⊕ Table3).")
 
